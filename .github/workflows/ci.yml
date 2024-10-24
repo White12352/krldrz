@@ -23,6 +23,7 @@ jobs:
           cd packages
           $GITHUB_WORKSPACE/$PART1_SH
           cd ..
+          cp -f .github/Makefile packages/sing-box
 
           
       - name: Commit and Push Changes
