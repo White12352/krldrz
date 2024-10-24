@@ -15,3 +15,5 @@ rm -rf v2ray-geodata
 rm -rf v2ray-plugin
 rm -rf xray-core
 rm -rf xray-plugin
+
+rm -f sing-box/Makefile
