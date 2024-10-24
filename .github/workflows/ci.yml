@@ -19,7 +19,7 @@ jobs:
       - name: code
         run: |
           git clone --depth 1 -b main https://github.com/xiaorouji/openwrt-passwall-packages packages
-          chmod +x $GITHUB_WORKSPACE/$DIY_P1_SH
+          chmod +x $GITHUB_WORKSPACE/$PART1_SH
           cd packages
           $GITHUB_WORKSPACE/$PART1_SH
           cd ..
